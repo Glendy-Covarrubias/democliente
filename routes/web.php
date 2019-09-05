@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/democliente', 'DemoClienteController@index')->name('democliente.index');
+
+Route::get('/editcliente/{id}', 'DemoClienteController@show')->name('cliente.editshow');

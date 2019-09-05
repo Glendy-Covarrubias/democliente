@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    <a href="{{ route('democliente.index') }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Ver tabla de cliente demo</a>
                 </div>
             </div>
         </div>
